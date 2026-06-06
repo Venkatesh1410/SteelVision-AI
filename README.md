@@ -85,3 +85,22 @@ Venkatesh Mishra
 B.Tech Mechanical Engineering
 
 Indian Institute of Technology Patna
+
+
+## Installation
+
+```bash
+git clone https://github.com/Venkatesh1410/SteelVision-AI.git
+
+cd SteelVision-AI
+
+pip install -r requirements.txt
+```
+
+## Run
+
+Open:
+
+```bash
+jupyter notebook notebooks/SteelVision.ipynb
+```
