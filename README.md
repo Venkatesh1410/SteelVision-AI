@@ -16,6 +16,27 @@ The project uses a fine-tuned ResNet18 model to classify six categories of steel
 - Explainable AI using Grad-CAM
 - Industrial Deployment Architecture
 
+## Model Performance
+
+### Validation Metrics
+
+| Metric | Score |
+|----------|----------|
+| Accuracy | 98.61% |
+| Macro F1 Score | 98.60% |
+
+### Training Curves
+
+![Training Curves](assets/Training_Curves.png)
+
+### Confusion Matrix
+
+![Confusion Matrix](assets/Confusion_matrix.png)
+
+### Explainable AI (Grad-CAM)
+
+![GradCAM](assets/Gradcam_examples.png)
+
 ## Defect Classes
 
 1. Crazing
