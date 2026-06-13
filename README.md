@@ -1,8 +1,39 @@
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-red)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-ff4b4b)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+
 #  SteelVision AI
 
 An Explainable AI-powered Industrial Inspection System for Automated Steel Surface Defect Detection using ResNet18, Grad-CAM, and Streamlit.
 
 ---
+
+##  Project Highlights
+
+- Built an end-to-end industrial defect inspection system
+- Achieved automated classification of 6 steel defect categories
+- Implemented Explainable AI using Grad-CAM
+- Developed severity assessment and recommendation engine
+- Generated downloadable inspection reports with visual evidence
+- Deployed through Streamlit
+
+
+##  Demo Video
+
+See SteelVision AI in action:
+
+[![SteelVision Demo](assets/Homepage.png)](https://drive.google.com/file/d/1yqfAvWbR_UBHennfMuYQovwnprPU_ow7/view?usp=sharing)
+
+📹 Full demonstration covering:
+
+- Steel Surface Defect Detection
+- Grad-CAM Explainability
+- Confidence Analysis
+- Severity Assessment
+- PDF Inspection Report Generation
+
 
 ##  Features
 
