@@ -1,93 +1,104 @@
-# SteelVision AI
+#  SteelVision AI
 
-Explainable Computer Vision for Automated Steel Surface Defect Inspection using Deep Learning and Grad-CAM.
+An Explainable AI-powered Industrial Inspection System for Automated Steel Surface Defect Detection using ResNet18, Grad-CAM, and Streamlit.
 
-## Overview
+---
 
-SteelVision AI is an industrial computer vision system developed for automated steel surface defect inspection.
+##  Features
 
-The project uses a fine-tuned ResNet18 model to classify six categories of steel defects and incorporates Grad-CAM visualizations to provide explainable predictions.
-
-## Key Results
-
-- Validation Accuracy: 98.61%
-- Macro F1 Score: 98.60%
-- 6 Defect Classes
+- Automated Steel Surface Defect Detection
 - Explainable AI using Grad-CAM
-- Industrial Deployment Architecture
+- Confidence Score Analysis
+- Defect Severity Assessment
+- Corrective Action Recommendations
+- PDF Inspection Report Generation
+- Invalid Image Detection
+- Interactive Streamlit Web Application
 
-## Model Performance
+---
 
-### Validation Metrics
+##  Application Screenshots
 
-| Metric | Score |
-|----------|----------|
-| Accuracy | 98.61% |
-| Macro F1 Score | 98.60% |
+### Homepage
 
-### Training Curves
+![Homepage](assets/Homepage.png)
 
-![Training Curves](assets/Training_Curves.png)
+---
 
-### Confusion Matrix
+### Prediction Dashboard
 
-![Confusion Matrix](assets/Confusion_matrix.png)
+![Prediction](assets/Predictions.png)
 
-### Explainable AI (Grad-CAM)
+---
 
-![GradCAM](assets/Gradcam_examples.png)
+### Grad-CAM Explainability
 
-## Defect Classes
+![GradCAM](assets/Gradcam.png)
 
-1. Crazing
-2. Inclusion
-3. Patches
-4. Pitted Surface
-5. Rolled-In Scale
-6. Scratches
+---
 
-## Dataset
+### Inspection Report
 
-NEU Surface Defect Dataset
+![Report](assets/Report.png)
 
-- Total Images: 1800
-- Training Images: 1440
-- Validation Images: 360
+---
 
-## Model
+##  System Workflow
 
-- Architecture: ResNet18
-- Framework: PyTorch
-- Explainability: Grad-CAM
-- Classification Type: Multi-Class Classification
+Image Upload
 
-## Industrial Use Case
+↓
 
-The system is designed for real-time steel quality inspection and can be integrated with:
+Preprocessing
 
-- Industrial Cameras
-- Edge Devices
-- Operator Dashboards
-- Manufacturing Quality Systems
+↓
 
-## Repository Contents
+ResNet18 Classification
 
-- Jupyter Notebook Implementation
-- Project Presentation
-- Training Pipeline
-- Evaluation Results
-- Explainable AI Analysis
+↓
 
-## Author
+Confidence Analysis
 
-Venkatesh Mishra
+↓
 
-B.Tech Mechanical Engineering
+Grad-CAM Explainability
 
-Indian Institute of Technology Patna
+↓
 
+Severity Assessment
 
-## Installation
+↓
+
+PDF Report Generation
+
+---
+
+##  Model Information
+
+| Component | Details |
+|------------|------------|
+| Architecture | ResNet18 |
+| Classes | 6 Defect Types |
+| Framework | PyTorch |
+| Explainability | Grad-CAM |
+| Deployment | Streamlit |
+| Language | Python |
+
+---
+
+##  Repository Structure
+
+```text
+assets/
+notebooks/
+presentation/
+README.md
+requirements.txt
+```
+
+---
+
+##  Installation
 
 ```bash
 git clone https://github.com/Venkatesh1410/SteelVision-AI.git
@@ -95,12 +106,20 @@ git clone https://github.com/Venkatesh1410/SteelVision-AI.git
 cd SteelVision-AI
 
 pip install -r requirements.txt
+
+streamlit run app.py
 ```
 
-## Run
+---
 
-Open:
+##  License
 
-```bash
-jupyter notebook notebooks/SteelVision.ipynb
-```
+MIT License
+
+---
+
+##  Author
+
+Venkatesh Mishra
+
+Computer Vision • Machine Learning • Explainable AI
